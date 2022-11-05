@@ -8,10 +8,9 @@ export default function RootLayout({ children }) {
         <head /> will contain the components returned by the nearest parent
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <title>Grading System</title>
       <head />
       <body>
-        <header>
+        <header className="shadow-md">
           <MainNavigation />
         </header>
         <main>{children}</main>

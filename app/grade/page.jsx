@@ -1,7 +1,12 @@
-import react from "react";
+import react, { use } from "react";
+import SetGrade from "../../components/grade/SetGrade";
 
 const GradePage = () => {
-  return <div>Grade Page</div>;
+  return (
+    <div>
+      <SetGrade />
+    </div>
+  );
 };
 
 export default GradePage;
